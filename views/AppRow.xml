@@ -1,0 +1,11 @@
+<Alloy>
+    <TableViewRow className="AppRowClassName" onClick="clickRow">
+        <ImageView id="appicon" />
+        <View id="label_view">
+            <Label class="app_info" id="apptitle"/>
+            <Label class="app_info" id="price"/>
+
+        </View>
+
+    </TableViewRow>
+</Alloy>

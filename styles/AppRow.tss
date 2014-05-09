@@ -1,0 +1,25 @@
+
+"#appicon" : {
+  left:0,
+  width:48,
+  height:48
+}
+".app_info":{
+}
+"#label_view":{
+	left:60,
+	width:Ti.UI.FILL,
+	height:48,
+	right:0
+}
+"#apptitle":{
+	top:0,
+	left:0,
+	right:0
+}
+"#price":{
+	right:0,
+	//width:48,
+	height:24,
+	bottom:0
+}

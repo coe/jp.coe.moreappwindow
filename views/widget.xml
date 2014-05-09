@@ -1,0 +1,11 @@
+<Alloy>
+    <View>
+        <View id="loading_view">
+            <Require id="loading" type="widget" src="com.appcelerator.loading"/>
+        </View>
+
+        <!-- <Label id="label" onClick="windowFocus">loading</Label> -->
+        <TableView id="table"></TableView>
+    </View>
+
+</Alloy>

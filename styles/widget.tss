@@ -1,0 +1,20 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+"#label":{
+	top:0,
+	height:50
+}
+"#table":{
+	top:0
+}
+"#loading_view":{
+	backgroundColor:"black",
+	zIndex:100
+}
