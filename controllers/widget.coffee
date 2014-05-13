@@ -12,7 +12,18 @@ ANDROID_URL = "http://play.google.com/store/search?q=tsuyoshi+hyuga"
 ANDROID_YQL="select * from html where url=\"#{IOS_URL}\""
 URL=API#"http://coecorsproxy.appspot.com/"
 
-_callback = args.callback
+_callback = args.callback ? (e,d)->
+  Ti.API.debug "callback #{JSON.stringify d}"
+  #ここからページ作成する
+  obj = 
+    title:d.trackName
+    image:d.screenshotUrls[0]#"/images/ios.png"
+    genre:d.genres[0]
+    data:d
+  view = Alloy.createController("AppScrollableView",obj).getView()
+  win = Ti.UI.createWindow()
+  win.add view
+  Alloy.Globals.currentTab.open win
 
 ###*
 クリック時のコールバック設定
