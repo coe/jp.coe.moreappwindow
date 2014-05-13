@@ -11,7 +11,6 @@
 	"tags":"",
 	"platforms":"android,blackberry,ios,mobileweb,tizen",
     "dependencies": {
-        "nl.fokkezb.pullToRefresh": "1.0",
         "com.appcelerator.loading":"1.0"
     }
 }
