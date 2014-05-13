@@ -80,13 +80,15 @@ getItunesData = (e)->
         unless ENV_PRODUCTION then Ti.API.debug "3:#{JSON.stringify data}"
         
 getItunesDataNew = (data)->
-  
-        rows = for name in data
-          name.clickRowCallback = clickRowCallback
-          Widget.createController("AppRow",name).getView()
-        $.table.data = rows
-        setLoadingView no
-        $.label?.text = "end"
+  data = _.filter data,(obj)->
+    obj.price is 0
+
+  rows = for name in data
+    name.clickRowCallback = clickRowCallback
+    Widget.createController("AppRow",name).getView()
+  $.table.data = rows
+  setLoadingView no
+  $.label?.text = "end"
 
 refresh = ->
   AppStoreClient = require "AppStoreClient/AppStoreClient"
