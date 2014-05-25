@@ -14,7 +14,11 @@
 "#apptitle":{
 	top:0,
 	left:0,
-	right:0
+	right:0,
+	ellipsize:true,
+	horizontalWrap :  false ,
+	width:Ti.UI.FILL,
+	wordWrap:false
 }
 "#price":{
 	right:0,
@@ -23,8 +27,5 @@
 	bottom:0
 }
 ".app_info":{
-	ellipsize:true,
-	horizontalWrap :  false ,
-	width:Ti.UI.FILL,
-	wordWrap:false
+
 }
