@@ -24,5 +24,6 @@
 }
 ".app_info":{
 	ellipsize:true,
+	horizontalWrap :  false ,
 	width:Ti.UI.FILL
 }
