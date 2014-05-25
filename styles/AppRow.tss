@@ -23,5 +23,6 @@
 	bottom:0
 }
 ".app_info":{
-	ellipsize:true
+	ellipsize:true,
+	width:Ti.UI.FILL
 }
