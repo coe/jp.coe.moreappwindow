@@ -22,3 +22,6 @@
 	height:24,
 	bottom:0
 }
+".app_info":{
+	ellipsize:true
+}
