@@ -4,14 +4,12 @@
   width:48,
   height:48
 }
-".app_info":{
-	touchEnabled:false
-}
 "#label_view":{
 	left:60,
 	width:Ti.UI.FILL,
 	height:48,
-	right:0
+	right:0,
+	touchEnabled:false
 }
 "#apptitle":{
 	top:0,
