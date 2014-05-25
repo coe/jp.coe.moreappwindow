@@ -10,7 +10,7 @@
 "#label_view":{
 	left:60,
 	width:Ti.UI.FILL,
-	height:48,
+	height:60,
 	right:0,
 	touchEnabled:false
 }
