@@ -5,6 +5,7 @@
   height:48
 }
 ".app_info":{
+	touchEnabled:false
 }
 "#label_view":{
 	left:60,

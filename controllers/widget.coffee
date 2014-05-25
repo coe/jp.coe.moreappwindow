@@ -16,6 +16,7 @@ _callback = args.callback ? (e,d)->
   Ti.API.debug "callback #{JSON.stringify d}"
   
   if OS_IOS then Ti.Platform.openURL d.trackViewUrl
+  else if OS_ANDROID then Ti.Platform.openURL d.trackViewUrl
 
 ###*
 クリック時のコールバック設定
