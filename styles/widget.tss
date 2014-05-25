@@ -12,7 +12,8 @@
 	height:50
 }
 "#table":{
-	top:0
+	top:0,
+	separatorColor:"black"
 }
 "#loading_view":{
 	backgroundColor:"black",
