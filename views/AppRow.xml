@@ -1,5 +1,5 @@
 <Alloy>
-    <TableViewRow className="AppRowClassName" onClick="clickRow">
+    <TableViewRow id="row" className="AppRowClassName" onClick="clickRow">
         <ImageView id="appicon" />
         <View id="label_view">
             <Label class="app_info" id="apptitle"/>
