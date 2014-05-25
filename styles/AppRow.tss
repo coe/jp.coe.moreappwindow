@@ -17,24 +17,26 @@
 "#apptitle":{
 	top:0,
 	left:0,
-	right:0,
-	ellipsize:true,
-	horizontalWrap :  false ,
-	width:Ti.UI.FILL,
-	wordWrap:false,
-	textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT
+	right:0
 }
 "#price":{
 	right:0,
 	// height:24,
+	width:60,
 	bottom:0
 }
 "#genre":{
 	left:0,
+	right:60,
 	// height:24,
 	bottom:0
 }
 
 ".app_info":{
+	ellipsize:true,
+	horizontalWrap :  false ,
+	width:Ti.UI.FILL,
+	wordWrap:false,
+	textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT
 
 }
