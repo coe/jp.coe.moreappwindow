@@ -22,12 +22,12 @@
 "#price":{
 	right:0,
 	// height:24,
-	width:60,
+	width:80,
 	bottom:0
 }
 "#genre":{
 	left:0,
-	right:60,
+	right:80,
 	// height:24,
 	bottom:0
 }
