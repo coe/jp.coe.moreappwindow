@@ -26,6 +26,13 @@
 	height:24,
 	bottom:0
 }
+"#genre":{
+	left:0,
+	//width:48,
+	height:24,
+	bottom:0
+}
+
 ".app_info":{
 
 }

@@ -6,7 +6,8 @@ data = []
 
 $.appicon.image = APP.artworkUrl60
 $.apptitle.text = APP.trackName
-$.price.text = "無料"
+$.price.text = APP.formattedPrice
+$.genre.text = APP.primaryGenreName
 
 clickRow = (e)->
   APP.clickRowCallback e,APP

@@ -4,6 +4,7 @@
         <View id="label_view">
             <Label class="app_info" id="apptitle"/>
             <Label class="app_info" id="price"/>
+            <Label id="genre" class="app_info" />
 
         </View>
 
