@@ -96,7 +96,12 @@ getItunesDataNew = (data)->
   $.label?.text = "end"
 
 refresh = ->
-  AppStoreClient = require "AppStoreClient/AppStoreClient"
+  AppStoreClient = null
+  try
+    AppStoreClient = require "AppStoreClient/AppStoreClient"
+  catch error
+    unless ENV_PRODUCTION then Ti.API.debug error
+  AppStoreClient ?= require "AppStoreClient"
   #asc = new AppStoreClient()
   AppStoreClient.getItunesData (datas)->
     getItunesDataNew datas
